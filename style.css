@@ -1,0 +1,116 @@
+/* CSS Document */
+#wrapper{
+	width: 964px;
+	height: auto;
+	background: #000000;
+	margin: 0 auto;
+}
+.header{
+  	width: 944px;
+	height: 80px;
+	background-color: #F76265;
+  	color: #FFFFFF;
+	padding: 10px;
+	text-align: center;
+}
+.logo .img{
+	width: 80px;
+	height: 80px;
+	algin: center;
+}
+.menu{
+  	overflow: hidden;
+  	background-color: #FFA1A3;
+}
+.menu a{
+  	float: left;
+  	color: #f2f2f2;
+  	text-align: center;
+ 	padding: 12px;
+  	text-decoration: none;
+	font-size: 20px;
+}
+.menu a:hover {
+  	background-color: #C9C9C9;
+  	color: #FFFDFD;
+  	font-weight: bold;
+}
+.content{
+width: 964px;
+float: left;
+}
+.box{
+	width: 700px;
+	height: 600px;
+	background: #F76265;
+	float: left;
+}
+.box h1{
+	color: #FDF400;
+	padding-left: 10px;
+	margin-top: 20px;
+	font-size: 30px;
+}
+.box p{
+	color:#FFFFFF;
+	margin-left: 12px;
+	font-size: 16px;
+}
+.box h2{
+	color: #FDF400;
+	padding-left: 10px;
+	margin-top: 10px;
+	font-size: 30px;
+}
+.box p{
+	color:#FFFFFF;
+	margin-left: 12px;
+	font-size: 16px;
+}
+.sidebar{
+	width: 264px;
+	height: 600px;
+	background:#F76265;
+	float: left;
+}
+.sidebar img{
+	width: 264px;
+	height: 600px;
+}
+.sidebar p{
+	color: #FFFFFF;
+	font-size: 14px;
+	margin-left: 6px;
+}
+.search-container {
+  	float:right; 
+}
+ input[type=text] {
+  	padding: 7px;
+ 	margin-top: 7px;
+  	font-size: 17px;
+  	border: none;
+}
+.search-container button {
+  	margin: right;
+  	padding: 7px;
+  	margin-top: 7px;
+  	background: #AFADAD;
+  	font-size: 17px;
+	border: none;
+	color: #FFFFFF
+}
+.footer{
+	width: 964px;
+	height: 80px;
+	background:#FFA1A3;
+	float: left;
+	padding-top: 0px;
+}
+.footer p{
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 20px;
+	padding: 10px;
+}
+
